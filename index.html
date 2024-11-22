@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800 flex">
+
+    <aside class="w-64 bg-white h-screen shadow-md fixed top-0 left-0 z-20">
+        <div class="p-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo"
+                class="h-8 mb-6">
+            <ul>
+                <li>
+                    <a href="#" class="flex items-center py-2 px-4 text-gray-700 hover:bg-gray-200 rounded">
+                        <i class="fas fa-home mr-3 text-lg"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center py-2 px-4 text-gray-700 hover:bg-gray-200 rounded">
+                        <i class="fas fa-fire mr-3 text-lg"></i>
+                        Trending
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center py-2 px-4 text-gray-700 hover:bg-gray-200 rounded">
+                        <i class="fas fa-bell mr-3 text-lg"></i>
+                        Subscriptions
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center py-2 px-4 text-gray-700 hover:bg-gray-200 rounded">
+                        <i class="fas fa-bars mr-3 text-lg"></i>
+                        Library
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center py-2 px-4 text-gray-700 hover:bg-gray-200 rounded">
+                        <i class="fas fa-history mr-3 text-lg"></i>
+                        History
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <header class="bg-white shadow-md fixed w-full z-10 left-64">
+        <div class="container mx-auto px-4 flex items-center justify-evenly py-3">
+
+            <div class="flex-grow max-w-3xl mx-4">
+                <form class="flex items-center">
+                    <input type="text" placeholder="Search"
+                        class="flex-grow px-4 py-2 border border-gray-300 rounded-l-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button type="submit"
+                        class="bg-gray-100 p-2 rounded-r-full border border-gray-300 hover:bg-gray-200">
+                        <svg class="h-6 w-10 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
+            <div>
+                <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden">
+                    <img src="https://i.redd.it/wtuvhdplwje61.jpg" alt="User Icon" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20 ml-64 container mx-auto px-4 flex-grow">
+        <h1 class="text-2xl font-bold my-6">Recommended</h1>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg cursor-pointer transform transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://i.ytimg.com/vi/Om-IUx77Uuw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIbqbXdChQCiYhdZPusSNHyiHWbQ"
+                    alt="Video Thumbnail" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-sm font-semibold line-clamp-2">Kunnen deze mannen 1 minuut in de ogen van een
+                        bikinimodel staren? | SLAM!</h2>
+                    <p class="text-xs text-gray-500 mt-1">507K views • 3 years ago</p>
+                    <div class="flex items-center mt-3">
+                        <img src="https://yt3.ggpht.com/ytc/AIdro_n7KKMcDg6vX4gYX5-MI0dLUIGEr3u8azMtl68MZ8gjLA=s68-c-k-c0x00ffffff-no-rj"
+                            alt="YouTuber" class="w-8 h-8 rounded-full mr-2">
+                        <span class="text-xs">SLAM! - Radio</span>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg cursor-pointer transform transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://i.ytimg.com/vi/HOGIrE6vAFE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBR9BSEW3ejPGzPpk0rAnE_HXKM2g"
+                    alt="Video Thumbnail" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-sm font-semibold line-clamp-2">Summer Going-Out Outfits- TRY-ON</h2>
+                    <p class="text-xs text-gray-500 mt-1">1M views • 1 year ago</p>
+                    <div class="flex items-center mt-3">
+                        <img src="https://yt3.ggpht.com/ficlVBfxWURGGr_uMpkXesUs-X16hMCZDOsKWiyLcDhxrk_ni8zg_aX6Ss8fU9RIqkELKHdZQw=s68-c-k-c0x00ffffff-no-rj"
+                            alt="YouTuber" class="w-8 h-8 rounded-full mr-2">
+                        <span class="text-xs">Victoria Lynn Myers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg cursor-pointer transform transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://i.ytimg.com/vi/qJfxDA31q2o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4b5Hy6Sfux1om7S60F9jpdQCyhg"
+                    alt="Video Thumbnail" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-sm font-semibold line-clamp-2">what was Mia Malkova's first time like?</h2>
+                    <p class="text-xs text-gray-500 mt-1">983K views • 3 years ago</p>
+                    <div class="flex items-center mt-3">
+                        <img src="https://yt3.ggpht.com/ytc/AIdro_kJ6xBo0pnKlBpUaOx5RR773kWRNWG_ZJoPGKZ7Wx0toQ=s68-c-k-c0x00ffffff-no-rj"
+                            alt="YouTuber" class="w-8 h-8 rounded-full mr-2">
+                        <span class="text-xs">Stufftowastetimeto</span>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg cursor-pointer transform transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://i.ytimg.com/vi/z3FMZOXAaDc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD07OnDyfEfAqw710IiSSDU70oi4Q"
+                    alt="Video Thumbnail" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-sm font-semibold line-clamp-2">Why you have a boner?</h2>
+                    <p class="text-xs text-gray-500 mt-1">147K views • 1 month ago</p>
+                    <div class="flex items-center mt-3">
+                        <img src="https://yt3.ggpht.com/XYXO-Q40zraYDTWuaQBrODVZdUQ2ACZQRdlp2E_zfnTmUTYzxaR-TUf9BA6nALsSTdmTrH-yRA=s68-c-k-c0x00ffffff-no-rj"
+                            alt="YouTuber" class="w-8 h-8 rounded-full mr-2">
+                        <span class="text-xs">Zyzz Inspirational</span>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg cursor-pointer transform transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://i.ytimg.com/vi/335YIrr6KG4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjnNyjS62ed9o8ZOOCEUokVyjqAA"
+                    alt="Video Thumbnail" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-sm font-semibold line-clamp-2">4K - FULL SHOW - KITTENISH - MIAMI SWIM WEEK 2023
+                    </h2>
+                    <p class="text-xs text-gray-500 mt-1">3.9M views • 1 year ago</p>
+                    <div class="flex items-center mt-3">
+                        <img src="https://yt3.ggpht.com/cSQDM_WPEPb7hilxkvkuNfVnDBPeGMGxdgbWkituBsTs2RMAZLl9OJEJ2srD86IJMtqzZVKo=s68-c-k-c0x00ffffff-no-rj"
+                            alt="YouTuber" class="w-8 h-8 rounded-full mr-2">
+                        <span class="text-xs">Victor Quintana</span>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg cursor-pointer transform transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://i.ytimg.com/vi/z4lTTwt2YAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCIjTkfDJTXWK0SYU8s65ojNENlFQ"
+                    alt="Video Thumbnail" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-sm font-semibold line-clamp-2">SURFING WAIKIKI WITH MY GIRLFRIEND</h2>
+                    <p class="text-xs text-gray-500 mt-1">926K views • 1 year ago</p>
+                    <div class="flex items-center mt-3">
+                        <img src="https://yt3.ggpht.com/ytc/AIdro_m8OslQGrkFOkLk5EJz0AgJBQikU4A10Hs983KEPwPjS4Y=s68-c-k-c0x00ffffff-no-rj"
+                            alt="YouTuber" class="w-8 h-8 rounded-full mr-2">
+                        <span class="text-xs">Koa Rothman</span>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg cursor-pointer transform transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://i.ytimg.com/vi/iYzA9tgYB18/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqUyMWwzI9QOJ_HxDlYnnMOK3aGg"
+                    alt="Video Thumbnail" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-sm font-semibold line-clamp-2">SEE THROUGH MESH LINGERIE TRY ON HAUL | Charlotte
+                        Parkes</h2>
+                    <p class="text-xs text-gray-500 mt-1">1.3M views • 1 year ago</p>
+                    <div class="flex items-center mt-3">
+                        <img src="https://yt3.ggpht.com/4NfGbJLRYYflaXkEaKjFVHK1c2-yOgE_sgiSEeo4M9GQyj-Kr54NpDut-ux3wsJt6qCEBMGctAY=s68-c-k-c0x00ffffff-no-rj"
+                            alt="YouTuber" class="w-8 h-8 rounded-full mr-2">
+                        <span class="text-xs">Charlotte Parkes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
